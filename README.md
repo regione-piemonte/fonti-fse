@@ -1,20 +1,23 @@
 
+
 # Prodotto
-Il prodotto ***Configuratore Operatori***   realizza un sistema software per l'accesso ai servizi online della Sanità della Regione Piemonte che comprende:
-- un punto unico di accesso (PUA) per consentire agli utenti di enti pubblici e privati di accedere ad uno dei servizi online a cui sono abilitati dopo essersi autenticati e aver selezionato il *ruolo* con cui vogliono operare e la *collocazione* presso cui operano 
-- un database che memorizza tutte le informazioni relative a utenti, ruoli, collocazioni e abilitazioni attive
-- un meccanismo di accesso per consentire l'integrazione sicura fra il PUA e i servizi online a cui l'utente è abilitato.
+Il prodotto ***Fonti del FSE***   realizza un sistema software che presenta in una pwa (progressive web application) i sistemi che alimentano il FSE (Fascicolo Sanitario Elettronico della Regione Piemonte) e le tipologie di documenti che vengono indicizzati. Il sistema comprende:
+- una PWA che presenta le informazioni in due modalità di visualizzazione: *tabellare* e a *scheda per dispositivi mobile*
+- i servizi web che leggono le informazioni dal database per renderle disponibili in JSON/REST alla PWA
+- un database che memorizza le informazioni
+
+Per visualizzare il servizio attualmente in produzione si può consultare la [pagina](https://www.salutepiemonte.it/servizi/fonti-fascicolo-sanitario-elettronico)
+
 
 
 # Descrizione del prodotto 
 Il prodotto è composto attualmente dalle seguenti componenti 
 | Componente |Descrizione  |Versione |
 |--|--|--|
-| PUAWA | Web Application che realizza il PUA |-XXX-|
-| PUARW | Risorse statiche utili alla componente software PUAWA |-XXXXX-|
-| DMALOGINCCEDB | Script per creazione database che memorizza tutte le informazioni relative a utenti, ruoli, collocazioni e abilitazioni attive |-XXXXX-|
-| DMALOGINCCEBL | Web Service utili a realizzare un meccanismo di accesso per consentire l'integrazione sicura fra il PUA e i vari servizi online a cui l'utente è abilitato |-XXXXX-|
-| SOLCONFIG |  web application che consente di configurare gli utenti del sistema |*DI PROSSIMA PUBBLICAZIONE*|
+| FONTIPWA | una PWA che presenta le informazioni in due modalità di visualizzazione: tabellare e a scheda  |-XXX-|
+| DMAFONTI | i servizi web che leggono le informazioni dal database per renderle disponibili in JSON/REST alla PWA |-XXXXX-|
+| FONTIDB | un database che memorizza le informazioni |-XXXXX-|
+
 
 
 # Prerequisiti di sistema 
@@ -26,11 +29,6 @@ Il prodotto è composto attualmente dalle seguenti componenti
 - [PostgreSQL 9.6](https://www.postgresql.org/download/)
 - [CentOS 7.6](https://www.centos.org/)
 
-## Dipendenze da sistemi esterni
-### Sistema di autenticazione
-Il sistema di autenticazione su cui si basa il PUA è esterno al presente prodotto ed è basato sul framework SHIBBOLETH composto da Service Provider e Identity Provider. Gli operatori che accedono ai servizi online della Sanità regionale piemontese si basano su 
-- credenziali della PA Piemontese
-- certificati digitali
 
 # Installing
 Vedere il file install.pdf nella cartella DOCS 
@@ -42,12 +40,11 @@ Per il versionamento del software si usa la tecnica Semantic Versioning (http://
 # Authors
 La lista delle persone che hanno partecipato alla realizzazione del software sono:
 - Davide Grosso
-- Giuliano Iunco
-- Giuseppe Vezzetti
-- Manuela Bontempi
+- Giovanni Pennone
 - Michele Mastrorilli
 - Nicola Gaudenzi
-- Viviana Addari
+- Vanessa Alexandra Libora 
+- Veronica Berti
 - Yvonne Carpegna
 
 
