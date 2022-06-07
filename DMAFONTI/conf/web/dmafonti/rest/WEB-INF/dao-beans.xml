@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+                           http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd
+                           http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd">
+
+	<!--PROTECTED REGION ID(R1699570612) ENABLED START-->
+	<tx:annotation-driven
+			transaction-manager="txManager" proxy-target-class="true" />
+
+	<bean id="namedJdbcTemplate"
+		  class="it.csi.dma.dmafonti.business.dao.util.NamedParameterJdbcTemplateWithQueryDebug">
+		<constructor-arg ref="myDataSource" />
+	</bean>
+	<!-- Insert here your Spring Beans -->
+	<bean id="fontiStaticheLowDao"
+		  class="it.csi.dma.dmafonti.business.dao.impl.FontiStaticheLowDaoImpl">
+		<property name="jdbcTemplate" ref="namedJdbcTemplate" />
+	</bean>
+
+	<bean id="fontiDinamicheLowDao"
+		  class="it.csi.dma.dmafonti.business.dao.impl.FontiDinamicheLowDaoImpl">
+		<property name="jdbcTemplate" ref="namedJdbcTemplate" />
+	</bean>
+	
+	<bean id="fontiAziendeLowDao"
+		  class="it.csi.dma.dmafonti.business.dao.impl.FontiAziendeLowDaoImpl">
+		<property name="jdbcTemplate" ref="namedJdbcTemplate" />
+	</bean>
+	
+	<bean id="fontiDocumentiLowDao"
+		  class="it.csi.dma.dmafonti.business.dao.impl.FontiDocumentiLowDaoImpl">
+		<property name="jdbcTemplate" ref="namedJdbcTemplate" />
+	</bean>
+
+	<bean id="catalogoLogLowDao"
+		  class="it.csi.dma.dmafonti.business.dao.impl.CatalogoLogLowDaoImpl">
+		<property name="jdbcTemplate" ref="namedJdbcTemplate" />
+	</bean>
+
+	<bean id="logLowDao"
+		  class="it.csi.dma.dmafonti.business.dao.impl.LogLowDaoImpl">
+		<property name="jdbcTemplate" ref="namedJdbcTemplate" />
+		<property name="incrementer"
+				  ref="logLowDaoIncrementer" />
+	</bean>
+	<!--   Smediazione Documenti Batch  -->
+
+	<bean id="logLowDaoIncrementer"
+		  class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="myDataSource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>seq_dmacc_t_log</value>
+		</constructor-arg>
+	</bean>
+
+	<!-- Definizione di txManager e dataSource valido per il deployment su app server -->
+
+	<bean id="myDataSource" class="org.springframework.jndi.JndiObjectFactoryBean">
+		<property name="jndiName" value="java:/jdbc/dmaccDatasource" />
+		<!--  <property name="jndiName" value="java:dmaccDatasource" /> -->
+		<property name="proxyInterface" value="javax.sql.DataSource" />
+	</bean>
+
+	<bean id="txManager"
+		  class="org.springframework.transaction.jta.JtaTransactionManager">
+	</bean>
+
+
+	<!--PROTECTED REGION END-->
+	
+</beans>

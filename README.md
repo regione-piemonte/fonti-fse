@@ -6,17 +6,17 @@ Il prodotto ***Fonti del FSE***   realizza un sistema software che presenta in u
 - i servizi web che leggono le informazioni dal database per renderle disponibili in JSON/REST alla PWA
 - un database che memorizza le informazioni
 
-Per visualizzare il servizio attualmente in produzione si può consultare la [pagina](https://www.salutepiemonte.it/servizi/fonti-fascicolo-sanitario-elettronico)
+Per visualizzare il sistema in esercizio nel [Portale dei servizi sanitari online della Regione Piemonte](https://www.salutepiemonte.it/) si può consultare la [pagina](https://www.salutepiemonte.it/servizi/fonti-fascicolo-sanitario-elettronico)
 
 
 
 # Descrizione del prodotto 
-Il prodotto è composto attualmente dalle seguenti componenti 
+Il prodotto è composto  dalle seguenti componenti 
 | Componente |Descrizione  |Versione |
 |--|--|--|
-| FONTIPWA | una PWA che presenta le informazioni in due modalità di visualizzazione: tabellare e a scheda  |-XXX-|
-| DMAFONTI | i servizi web che leggono le informazioni dal database per renderle disponibili in JSON/REST alla PWA |-XXXXX-|
-| FONTIDB | un database che memorizza le informazioni |-XXXXX-|
+| FONTIPWA | una PWA che presenta le informazioni in due modalità di visualizzazione: tabellare e a scheda  |-1.0.0-|
+| DMAFONTI | i servizi web che leggono le informazioni dal database per renderle disponibili in JSON/REST alla PWA |-1.0.0-|
+| FONTIDB | un database che memorizza le informazioni |-1.0.0-|
 
 
 
@@ -39,14 +39,19 @@ Per il versionamento del software si usa la tecnica Semantic Versioning (http://
 
 # Authors
 La lista delle persone che hanno partecipato alla realizzazione del software sono:
+- Barbara Petrucci
 - Davide Grosso
+- Giacomo Diaferio
 - Giovanni Pennone
+- Luca Virli
 - Michele Mastrorilli
+- Michele Napolitano
 - Nicola Gaudenzi
+- Stefano Spera
+- Teresa Romeo
 - Vanessa Alexandra Libora 
 - Veronica Berti
 - Yvonne Carpegna
-
 
 # Copyrights
 © Copyright Regione Piemonte – 2022

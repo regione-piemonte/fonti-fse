@@ -1,0 +1,758 @@
+[
+  {
+    "azienda_codice": 203,
+    "azienda_descrizione": "A.S.L. TORINO 3",
+    "natura_id": 1,
+    "natura_descrizione": "Pubblico"
+  },
+  {
+    "azienda_codice": 204,
+    "azienda_descrizione": "A.S.L. TORINO 4",
+    "natura_id": 1,
+    "natura_descrizione": "Pubblico"
+  },
+  {
+    "azienda_codice": 205,
+    "azienda_descrizione": "A.S.L. TORINO 5",
+    "natura_id": 1,
+    "natura_descrizione": "Pubblico"
+  },
+  {
+    "azienda_codice": 206,
+    "azienda_descrizione": "A.S.L. VERCELLI",
+    "natura_id": 1,
+    "natura_descrizione": "Pubblico"
+  },
+  {
+    "azienda_codice": 207,
+    "azienda_descrizione": "A.S.L. BIELLA",
+    "natura_id": 1,
+    "natura_descrizione": "Pubblico"
+  },
+  {
+    "azienda_codice": 208,
+    "azienda_descrizione": "A.S.L. NOVARA",
+    "natura_id": 1,
+    "natura_descrizione": "Pubblico"
+  },
+  {
+    "azienda_codice": 209,
+    "azienda_descrizione": "A.S.L. VERBANO-CUSIO-OSSOLA",
+    "natura_id": 1,
+    "natura_descrizione": "Pubblico"
+  },
+  {
+    "azienda_codice": 210,
+    "azienda_descrizione": "A.S.L. CUNEO 1",
+    "natura_id": 1,
+    "natura_descrizione": "Pubblico"
+  },
+  {
+    "azienda_codice": 211,
+    "azienda_descrizione": "A.S.L. CUNEO 2",
+    "natura_id": 1,
+    "natura_descrizione": "Pubblico"
+  },
+  {
+    "azienda_codice": 212,
+    "azienda_descrizione": "A.S.L. ASTI",
+    "natura_id": 1,
+    "natura_descrizione": "Pubblico"
+  },
+  {
+    "azienda_codice": 213,
+    "azienda_descrizione": "A.S.L. ALESSANDRIA",
+    "natura_id": 1,
+    "natura_descrizione": "Pubblico"
+  },
+  {
+    "azienda_codice": 301,
+    "azienda_descrizione": "A.S.L. CITTA' DI TORINO",
+    "natura_id": 1,
+    "natura_descrizione": "Pubblico"
+  },
+  {
+    "azienda_codice": 603,
+    "azienda_descrizione": "CLINICA SANTA CATERINA DA SIENA s.r.l.",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 604,
+    "azienda_descrizione": "CASA DI CURA \"SEDES SAPIENTIAE",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 610,
+    "azienda_descrizione": "CASA DI CURA FORNACA\nDISESSANT",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 611,
+    "azienda_descrizione": "VILLA MARIA PIA HOSPITAL",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 612,
+    "azienda_descrizione": "CASA DI CURA KOELLIKER OSPEDALINO",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 614,
+    "azienda_descrizione": "CASA DI CURA VILLE AUGUSTA - S.R.L.",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 615,
+    "azienda_descrizione": "CASA DI CURA VILLA PATRIZIA - S.R.L.",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 617,
+    "azienda_descrizione": "VILLE \"TURINA AMIONE",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 618,
+    "azienda_descrizione": "CASA DI CURA E RIPOSO S. LUCA S.P.A.",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 621,
+    "azienda_descrizione": "CASA DI CURA VILLA SERENA - S.P.A.",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 622,
+    "azienda_descrizione": "SANTA CROCE SRL",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 623,
+    "azienda_descrizione": "VILLA PAPA GIOVANNI XXIII",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 626,
+    "azienda_descrizione": "POLICLINICO DI MONZA S.P.A.",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 627,
+    "azienda_descrizione": "CASA DI CURA SAN GIORGIO",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 629,
+    "azienda_descrizione": "CASA DI CURA L'EREMO DI MIAZZINA",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 630,
+    "azienda_descrizione": "CASA DI CURA S.CARLO DI ARONA",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 631,
+    "azienda_descrizione": "CASA DI CURA SAN MICHELE",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 632,
+    "azienda_descrizione": "CASA DI CURA CITTA' DI BRA",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 633,
+    "azienda_descrizione": "ISTITUTO CLIMATICO DI ROBILANTE",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 634,
+    "azienda_descrizione": "CASA DI CURA MONTESERRAT S.R.L",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 635,
+    "azienda_descrizione": "CASA DI CURA \"LA\nRESIDENZA",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 639,
+    "azienda_descrizione": "CASA DI CURA S. ANNA SPA",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 641,
+    "azienda_descrizione": "CASA DI CURA VILLA IGEA",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 642,
+    "azienda_descrizione": "CASA DI CURA SANT'ANNA",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 644,
+    "azienda_descrizione": "VILLA GRAZIA",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 646,
+    "azienda_descrizione": "CASA DI CURA VILLA IRIS SRL",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 647,
+    "azienda_descrizione": "CASA DI CURA \"STELLA DEL MATTINO",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 648,
+    "azienda_descrizione": "CASA DI CURA VILLA ADRIANA",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 649,
+    "azienda_descrizione": "CASA DI CURA I CEDRI",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 651,
+    "azienda_descrizione": "CASA DI CURA MADONNA DEI BOSCHI",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 653,
+    "azienda_descrizione": "PROMEA S.P.A.",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 655,
+    "azienda_descrizione": "CASA DI CURA CELLINI",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 657,
+    "azienda_descrizione": "CASA DI CURA CENTRO R.R.F. MONS. LUIGI NOVARESE",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 659,
+    "azienda_descrizione": "S.R.L. TERAPEUTICENTER - ISTITUTO MEDICO CHIRURGICO",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 660,
+    "azienda_descrizione": "CENTRO MEDICO POLISPECIALISTICO AMBULATORIALE SAN LUIGI",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 661,
+    "azienda_descrizione": "LISA - POLICLINICO SAN LUCA S.R.L.",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 662,
+    "azienda_descrizione": "MOD CENTRO MEDICO CHIRURGICO",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 663,
+    "azienda_descrizione": "MEDICAL SERVICE S.A.S",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 664,
+    "azienda_descrizione": "LARC 2 s.r.l.",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 665,
+    "azienda_descrizione": "CASA DI CURA VILLA CRISTINA",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 700,
+    "azienda_descrizione": "STUDIO MEDICO MIRAFIORI SRL-STR. BASSE",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 701,
+    "azienda_descrizione": "RAFFAELLO S.R.L.",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 702,
+    "azienda_descrizione": "A.N.S.A. S.R.L.",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 704,
+    "azienda_descrizione": "CHIROS S.R.L.",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 705,
+    "azienda_descrizione": "CENTRO DIAGNOSTICO CERNAIA CERNAIA",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 706,
+    "azienda_descrizione": "FISIO SRL CENTRO MED. LINGOTTO",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 707,
+    "azienda_descrizione": "IST.FISICOTERAPICO DI TORINO",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 708,
+    "azienda_descrizione": "LARC Spa",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 709,
+    "azienda_descrizione": "PKT SRL",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 710,
+    "azienda_descrizione": "S.K.T. S.R.L. - STUDIO KINESITERAPICO TORINESE",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 711,
+    "azienda_descrizione": "I.F.O.R.",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 712,
+    "azienda_descrizione": "L.A.M.A.T.",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 713,
+    "azienda_descrizione": "PUNTO DE.GA. S.R.L.",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 714,
+    "azienda_descrizione": "NUOVA LAMP S.R.L.",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 715,
+    "azienda_descrizione": "STUDIO MEDICO FISIOTERAPICO S.R.L.",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 716,
+    "azienda_descrizione": "INDAGINI RICERCHE MEDICHE",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 717,
+    "azienda_descrizione": "ISTITUTO MALPIGHI",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 718,
+    "azienda_descrizione": "POLIAMBULATORIO MEDICO CHIERESE",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 719,
+    "azienda_descrizione": "LABORATORIO MEDICO C. BATTISTI",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 720,
+    "azienda_descrizione": "CENTRO DIAGNOSTICO LA-RA SRL",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 721,
+    "azienda_descrizione": "DOC SERVICE FISIOKINESITERAPIA",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 722,
+    "azienda_descrizione": "PASTEUR LABORATORIO ANALISI CUNEO",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 723,
+    "azienda_descrizione": "CENTRO MEDICO ALBESE",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 724,
+    "azienda_descrizione": "ST.\"CENTOCANNONI\"DI PIACENTINO",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 726,
+    "azienda_descrizione": "STUDIO DOTT.C. PONZANO SRL",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 727,
+    "azienda_descrizione": "STUDIO RADIOLOG. OMODEO ZORINI",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 728,
+    "azienda_descrizione": "AMBULATORIO RADIOLOGICO DR. FOCO S.A.S.",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 729,
+    "azienda_descrizione": "STUDIO RADIOLOGICO NEWIMA S.R.L.",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 730,
+    "azienda_descrizione": "CENTRO DIAGNOSTICO CIGLIANESE CIGLIANO",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 733,
+    "azienda_descrizione": "IMT- MEDIL S.P.A.",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 735,
+    "azienda_descrizione": "R.I.B.A. S.P.A",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 736,
+    "azienda_descrizione": "LABORATORIO ANALISI S. MARIA DEL DR. W. QUAGLIA",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 737,
+    "azienda_descrizione": "IRMET S.P.A",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 738,
+    "azienda_descrizione": "C.F.T. KINETOS S.A.S DI BONOMO M. E C.",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 741,
+    "azienda_descrizione": "COOPERATIVA MEDICINA ATTIVA",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 745,
+    "azienda_descrizione": "CENTRO DIAGNOSTICO BIELLESE",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 746,
+    "azienda_descrizione": "CENTRO FISIOTERAPIA STAGNO DI DAVIDE E STEFANO STAGNO SNC",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 800,
+    "azienda_descrizione": "BOGNANCO ACQUE MINERALI SRL",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 801,
+    "azienda_descrizione": "TERME DI VALDIERI SO.GE.",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 802,
+    "azienda_descrizione": "TERME DI VINADIO",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 803,
+    "azienda_descrizione": "TERME DI LURISIA",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 805,
+    "azienda_descrizione": "STAB. TERMALE FONS SALUTIS",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 806,
+    "azienda_descrizione": "TERME DI ACQUI S.P.A.",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 807,
+    "azienda_descrizione": "TERME PREMIA SRL VALLI ANTIGORIO DIVEDRO FORMAZZA",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 853,
+    "azienda_descrizione": "ISTITUTO SACRA FAMIGLIA",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 854,
+    "azienda_descrizione": "CENTRO DI RIABIL.G.FERRERO",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 855,
+    "azienda_descrizione": "ASS. CENTRI V.C.O. GRAVELLONA",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 856,
+    "azienda_descrizione": "ASS. CENTRI V.C.O. DOMODOSSOLA",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 857,
+    "azienda_descrizione": "CENTRO \"PAOLO VI",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 858,
+    "azienda_descrizione": "GIOVANNI XXIII SRL \"CENTRO DON FRANCO PICCO",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 859,
+    "azienda_descrizione": "DOMUS LAETITIAE SOC. COOP.SOCIALE DI SOLIDARIETA'",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 860,
+    "azienda_descrizione": "TERME REALI DI VALDIERI S.P.A",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 861,
+    "azienda_descrizione": "ALLIANCE MEDICAL DIAGNOSTIC SRL",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 862,
+    "azienda_descrizione": "OTIP",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 863,
+    "azienda_descrizione": "RETE VILLA IGEA E I\nCEDRI HOSPITAL",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 864,
+    "azienda_descrizione": "LEGA ITALIANA LOTTA CONTRO I TUMORI LILT",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 865,
+    "azienda_descrizione": "STUDIO MEDICO AURORA",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 866,
+    "azienda_descrizione": "BIOCHEMICAL SRL",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 868,
+    "azienda_descrizione": "CASA DI CURA HABILITA S.P.A.",
+    "natura_id": 2,
+    "natura_descrizione": "Privato"
+  },
+  {
+    "azienda_codice": 904,
+    "azienda_descrizione": "AZIENDA OSP. S.LUIGI",
+    "natura_id": 1,
+    "natura_descrizione": "Pubblico"
+  },
+  {
+    "azienda_codice": 905,
+    "azienda_descrizione": "AZIENDA OSP. MAGGIORE DELLA CARITA'",
+    "natura_id": 1,
+    "natura_descrizione": "Pubblico"
+  },
+  {
+    "azienda_codice": 906,
+    "azienda_descrizione": "AZIENDA OSP. S.CROCE E CARLE",
+    "natura_id": 1,
+    "natura_descrizione": "Pubblico"
+  },
+  {
+    "azienda_codice": 907,
+    "azienda_descrizione": "AZIENDA OSP. S.ANTONIO BIAGIO/ARRIGO",
+    "natura_id": 1,
+    "natura_descrizione": "Pubblico"
+  },
+  {
+    "azienda_codice": 908,
+    "azienda_descrizione": "AZIENDA OSP. ORDINE MAURIZIANO DI TORINO",
+    "natura_id": 1,
+    "natura_descrizione": "Pubblico"
+  },
+  {
+    "azienda_codice": 909,
+    "azienda_descrizione": "AZIENDA OSP. CITTA DELLA SALUTE E DELLA SCIENZA DI TORINO",
+    "natura_id": 1,
+    "natura_descrizione": "Pubblico"
+  },
+  {
+    "azienda_codice": 920,
+    "azienda_descrizione": "ISTITUTO AUXOLOGICO ITALIANO",
+    "natura_id": 3,
+    "natura_descrizione": "Equiparato"
+  },
+  {
+    "azienda_codice": 921,
+    "azienda_descrizione": "FONDAZIONE SALVATORE MAUGERI",
+    "natura_id": 3,
+    "natura_descrizione": "Equiparato"
+  },
+  {
+    "azienda_codice": 922,
+    "azienda_descrizione": "IRCCS - ISTITUTO PER LA RICERCA E CURA DEL CANCRO",
+    "natura_id": 3,
+    "natura_descrizione": "Equiparato"
+  },
+  {
+    "azienda_codice": 990,
+    "azienda_descrizione": "AUSILIATRICE",
+    "natura_id": 3,
+    "natura_descrizione": "Equiparato"
+  },
+  {
+    "azienda_codice": 991,
+    "azienda_descrizione": "BEATA VERGINE DELLA CONSOLATA- FATEBENE FRATELLI",
+    "natura_id": 3,
+    "natura_descrizione": "Equiparato"
+  },
+  {
+    "azienda_codice": 992,
+    "azienda_descrizione": "PRESIDIO SANITARIO\nGRADENIGO",
+    "natura_id": 3,
+    "natura_descrizione": "Equiparato"
+  },
+  {
+    "azienda_codice": 993,
+    "azienda_descrizione": "SAN CAMILLO",
+    "natura_id": 3,
+    "natura_descrizione": "Equiparato"
+  },
+  {
+    "azienda_codice": 996,
+    "azienda_descrizione": "PRESIDIO C.O.Q.",
+    "natura_id": 3,
+    "natura_descrizione": "Equiparato"
+  },
+  {
+    "azienda_codice": 997,
+    "azienda_descrizione": "PRESIDIO SANITARIO COTTOLENGO",
+    "natura_id": 3,
+    "natura_descrizione": "Equiparato"
+  }
+]

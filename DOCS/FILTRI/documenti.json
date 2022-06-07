@@ -1,0 +1,43 @@
+[
+  {
+    "codice": "11502-2",
+    "descrizione": "REFERTO DI LABORATORIO"
+  },
+   {
+    "codice": "68604-8",
+    "descrizione": "REFERTO DI RADIOLOGIA"
+  },
+  {
+    "codice": "11526-1",
+    "descrizione": "REFERTO DI ANATOMIA PATOLOGICA"
+  },
+  {
+    "codice": "11488-4",
+    "descrizione": "REFERTO SPECIALISTICO"
+  },
+ {
+    "codice": "59258-4",
+    "descrizione": "VERBALE DI PRONTO SOCCORSO"
+  },
+  {
+    "codice": "34105-7",
+    "descrizione": "LETTERA DI DIMISSIONE OSPEDALIERA"
+  },
+  {
+    "codice": "ATTO_OPERATORIO",
+    "descrizione": "ATTO OPERATORIO"
+  },
+   {
+    "codice": "SCREEN",
+    "descrizione": "ESITI SCREENING"
+  },
+  {
+    "codice": "REG-82593-5",
+    "descrizione": "CERTIFICATO VACCINALE"
+  },
+  {
+    "codice": "REG-87273-9",
+    "descrizione": "SCHEDA VACCINALE"
+  }
+
+]

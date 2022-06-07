@@ -1,0 +1,317 @@
+swagger: '2.0'
+info:
+  title: FONTI_COLLEGATE
+  description: API delle Fonti Collegate
+  version: 1.0.0
+host: r
+schemes:
+  - https
+basePath: /dmafonti/api/v1
+produces:
+  - application/json
+paths:
+  '/servizio-attivo':
+    get:
+      description: >
+        Serve per verificare se il servizio risponde o meno
+      produces:
+        - application/json
+      parameters:
+        - in: header
+          name: X-Request-ID
+          type: string
+          required: true
+        - in: header
+          name: X-Codice-Servizio
+          type: string
+          required: true 
+        - in: header
+          name: X-Forwarded-For
+          type: string
+          required: true                
+      responses:
+        '200':
+          description: OK
+          schema:
+            $ref: '#/definitions/info_servizio'
+  '/cittadini/fonti':
+    parameters:
+      - in: header
+        name: Shib-Identita-CodiceFiscale
+        type: string
+        required: true
+      - in: header
+        name: X-Request-ID
+        type: string
+        required: true
+      - in: header
+        name: X-Codice-Servizio
+        type: string
+        required: true
+      - in: header
+        name: X-Forwarded-For
+        type: string
+        required: true           
+    get:
+      summary: Lista fonti collegate
+      description: >-
+        Restituisce un elenco (lista) di fonti collegate
+      tags:
+        - Fonti
+      responses:
+        '200':
+          description: An array of Fonti.
+          schema:
+            $ref: '#/definitions/getFontiResponse'
+        '400':
+          description: bad request
+          schema:
+            $ref: '#/definitions/errore'
+        '401':
+          description: Utente non autorizzato a compiere l'operazione
+          schema:
+            $ref: '#/definitions/errore'
+        '404':
+          description: Risorsa non trovata
+          schema:
+            $ref: '#/definitions/errore'
+        '500':
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/errore'
+        default:
+          description: Unexpected error
+  '/cittadini/aziende':
+    parameters:
+      - in: header
+        name: Shib-Identita-CodiceFiscale
+        type: string
+        required: true
+      - in: header
+        name: X-Request-ID
+        type: string
+        required: true
+      - in: header
+        name: X-Codice-Servizio
+        type: string
+        required: true
+      - in: header
+        name: X-Forwarded-For
+        type: string
+        required: true           
+    get:
+      summary: Lista aziende
+      description: >-
+        Restituisce un elenco (lista) di aziende
+      tags:
+        - Aziende
+      responses:
+        '200':
+          description: An array of Aziende.
+          schema:
+            $ref: '#/definitions/getAziendeResponse'
+        '400':
+          description: bad request
+          schema:
+            $ref: '#/definitions/errore'
+        '401':
+          description: Utente non autorizzato a compiere l'operazione
+          schema:
+            $ref: '#/definitions/errore'
+        '404':
+          description: Risorsa non trovata
+          schema:
+            $ref: '#/definitions/errore'
+        '500':
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/errore'
+        default:
+          description: Unexpected error
+  '/cittadini/documenti':
+    parameters:
+      - in: header
+        name: Shib-Identita-CodiceFiscale
+        type: string
+        required: true
+      - in: header
+        name: X-Request-ID
+        type: string
+        required: true
+      - in: header
+        name: X-Codice-Servizio
+        type: string
+        required: true
+      - in: header
+        name: X-Forwarded-For
+        type: string
+        required: true           
+    get:
+      summary: Lista documenti
+      description: >-
+        Restituisce un elenco (lista) di documenti
+      tags:
+        - Documenti
+      responses:
+        '200':
+          description: An array of Documenti
+          schema:
+            $ref: '#/definitions/getDocumentiResponse'
+        '400':
+          description: bad request
+          schema:
+            $ref: '#/definitions/errore'
+        '401':
+          description: Utente non autorizzato a compiere l'operazione
+          schema:
+            $ref: '#/definitions/errore'
+        '404':
+          description: Risorsa non trovata
+          schema:
+            $ref: '#/definitions/errore'
+        '500':
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/errore'
+        default:
+          description: Unexpected error
+definitions:
+  info_servizio:
+    type: object
+    properties:
+      nome:
+        type: string
+        description: nome del servizio
+      descrizione:
+        type: string
+        description: descrizione del servizio
+      data:
+        type: string
+        format: date
+      servizio_attivo:
+        type: boolean
+        description: boolean di utilita per eventuali test
+  getFontiResponse:
+    type: object
+    properties:
+      periodo_riferimento_inizio:
+        type: string
+        format: datetime
+        description: Data inizio validita.
+      periodo_riferimento_fine:
+        type: string
+        format: datetime
+        description: Data fine validita.
+      elenco_asr:
+        type: array
+        items:
+          $ref: '#/definitions/elenco_asr'
+  getAziendeResponse:
+    type: object
+    properties:      
+      elenco_aziende:
+        type: array
+        items:
+          $ref: '#/definitions/elenco_aziende'
+  getDocumentiResponse:
+    type: object
+    properties:      
+      elenco_documenti:
+        type: array
+        items:
+          $ref: '#/definitions/elenco_documenti'
+  elenco_documenti:
+    type: object
+    properties:
+      codice:
+        type: string
+        description: codice documento.
+      descrizione:
+        type: string
+        description: descrizione documento.
+  elenco_aziende:
+    type: object
+    properties:
+      azienda_codice:
+        type: integer
+        description: codice azienda.
+      azienda_descrizione:
+        type: string
+        description: descrizione azienda.
+      natura_id:
+        type: integer
+        description: 1=pub, 2=priv, 3=equiparato.
+      natura_descrizione:
+        type: string
+        description: codice natura.
+  elenco_asr:
+    type: object
+    properties:
+      codice_asr:
+        type: string
+        description: Identificativo della asr.
+      descrizione_asr:
+        type: string
+        description: descrizione della asr.
+      natura:
+        type: integer
+        description: 1=pub, 2=priv, 3=equiparato.
+      documenti_inviati:
+        type: array
+        items:
+          $ref: '#/definitions/documenti_inviati'
+  documenti_inviati:
+    type: object
+    properties:
+      codice_documento:
+        type: string
+        description: Identificativo del documento.
+      descrizione_documento:
+        type: string
+        description: Descrizione del documento.
+      valore_conteggio:
+        type: integer
+        required: false
+        description: Conteggio del documento.
+      valore_alimentazione:
+        type: string
+        description: S=true o N=false.
+  errore:
+    type: object
+    properties:
+      status:
+        type: integer
+      code:
+        type: string
+      title:
+        type: string
+      detail:
+        type: array
+        items:
+          $ref: '#/definitions/dettaglio'
+      links:
+        type: array
+        items:
+          type: string
+    example:
+      - status: 401
+        code: Utente non Autorizzato
+        title: Utente non autorizzato a compiere l'operazione
+        detail: []
+        links: []
+      - status: 502
+        code: 'Errore invocazione servizio '
+        title: Problema nella chiamata al servizio Aura
+        detail:
+          - chiave: E0010
+            valore: >-
+              Non esistono profili anagrafici che rispondono ai parametri
+              indicati
+        links: []
+  dettaglio:
+    type: object
+    properties:
+      chiave:
+        type: string
+      valore:
+        type: string
