@@ -1,0 +1,10 @@
+module name,licenses,repository
+@quasar/extras@1.9.3,MIT,https://github.com/quasarframework/quasar
+@vue-a11y/announcer@2.1.0,MIT,https://github.com/vue-a11y/vue-announcer
+@vue-a11y/skip-to@2.1.2,MIT,https://github.com/vue-a11y/vue-skip-to
+axios@0.18.1,MIT,https://github.com/axios/axios
+core-js@3.6.5,MIT,https://github.com/zloirock/core-js
+gsap@3.5.1,Standard 'no charge' license: https://greensock.com/standard-license. Club GreenSock members get more: https://greensock.com/licensing/. Why GreenSock doesn't employ an MIT license: https://greensock.com/why-license/,https://github.com/greensock/GSAP
+quasar@1.12.13,MIT,https://github.com/quasarframework/quasar
+vue-meta@2.4.0,MIT,git@github.com/nuxt/vue-meta
+vue-router-sitemap@0.0.4,MIT,https://github.com/40818419/vue-router-sitemap
