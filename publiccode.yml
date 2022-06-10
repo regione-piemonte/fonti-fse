@@ -50,7 +50,7 @@ description:
       online della Regione Piemonte ](https://www.salutepiemonte.it/) si può
       consultare la pagina cliccando
       [qui](https://www.salutepiemonte.it/servizi/fonti-fascicolo-sanitario-elettronico)
-    shortDescription: Il prodotto Fonti del FSE realizza un sistema software che presenta in una pwa (progressive web application) i sistemi che alimentano il FSE (Fascicolo Sanitario Elettronico della Regione Piemonte) e le tipologie di documenti che vengono indicizzati.
+    shortDescription: Fonti del FSE realizza un sistema software che presenta i sistemi che alimentano il FSE e le tipologie di documenti che vengono indicizzati.
 developmentStatus: stable
 intendedAudience:
   scope:
