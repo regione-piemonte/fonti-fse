@@ -3,6 +3,7 @@
 # More info at https://github.com/italia/publiccode.yml
 
 publiccodeYmlVersion: '0.2'
+applicationSuite: Regione Piemonte Sistema Informativo Lavoro
 categories:
   - data-visualization
   - erp
@@ -28,34 +29,48 @@ description:
     features:
       - |-
         E' una pwa che presenta i sistemi che alimentano il FSE fruendo di
+
         servizi json/rest
     genericName: FONTI-FSE
     longDescription: |
       Il prodotto **Fonti del FSE**   realizza un sistema software che presenta
+
       in una pwa (progressive web application) i sistemi che alimentano il FSE
+
       (Fascicolo Sanitario Elettronico della Regione Piemonte) e le tipologie di
+
       documenti che vengono indicizzati. Il sistema comprende:
 
 
+
       - una PWA che presenta le informazioni in due modalità di visualizzazione:
+
       _tabellare_ e a _scheda per dispositivi mobile_
 
+
       - i servizi web che leggono le informazioni dal database per renderle
+
       disponibili in JSON/REST alla PWA
+
 
       - un database che memorizza le informazioni
 
 
+
       Per visualizzare il sistema in esercizio nel [Portale dei servizi sanitari
+
       online della Regione Piemonte ](https://www.salutepiemonte.it/) si può
+
       consultare la pagina cliccando
+
       [qui](https://www.salutepiemonte.it/servizi/fonti-fascicolo-sanitario-elettronico)
-    shortDescription: Fonti del FSE realizza un sistema software che presenta i sistemi che alimentano il FSE e le tipologie di documenti che vengono indicizzati.
+    screenshots:
+      - |-
+        https://raw.githubusercontent.com/regione-piemonte/fonti-fse/master/FONTIFSE.png
+    shortDescription: |-
+      Fonti del FSE realizza un sistema software che presenta i sistemi che
+      alimentano il FSE e le tipologie di documenti che vengono indicizzati.
 developmentStatus: stable
-intendedAudience:
-  scope:
-    - healthcare
-    - government
 it:
   conforme:
     gdpr: true
@@ -80,6 +95,8 @@ localisation:
   availableLanguages:
     - it
   localisationReady: false
+logo: |-
+  https://raw.githubusercontent.com/regione-piemonte/fonti-fse/master/FONTIFSE.png
 maintenance:
   contacts:
     - email: yvonne.carpegna@csi.it
@@ -92,3 +109,9 @@ releaseDate: '2022-05-27'
 softwareType: standalone/web
 softwareVersion: 13.0.0
 url: 'https://github.com/regione-piemonte/fonti-fse'
+usedBy:
+  - Regione Piemonte
+intendedAudience:
+  scope:
+    - healthcare
+    - government
