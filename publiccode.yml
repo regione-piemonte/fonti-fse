@@ -105,7 +105,7 @@ maintenance:
 name: Fonti del Fascicolo Sanitario Elettronico
 platforms:
   - web
-releaseDate: '2022-05-27'
+releaseDate: '2022-11-29'
 softwareType: standalone/web
 softwareVersion: 13.0.0
 url: 'https://github.com/regione-piemonte/fonti-fse'
